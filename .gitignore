@@ -1,0 +1,23 @@
+.idea
+/_work
+/node_modules
+/public/hot
+/public/storage
+/storage/*.key
+/storage/
+/vendor
+.env
+.prod.env
+.env.backup
+.phpunit.result.cache
+Homestead.json
+Homestead.yaml
+npm-debug.log
+yarn-error.log
+deployer.phar
+_github-files
+
+# Project exclude paths
+/public/assets/js/
+/public/assets/css/
+/public/assets/fonts/
