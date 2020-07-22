@@ -12,6 +12,7 @@
         "ext-gd": "*",
         "ext-json": "*",
         "deployer/deployer": "6.8",
+        "deployer/recipes": "^6.2",
         "fideloper/proxy": "^4.2",
         "fruitcake/laravel-cors": "^1.0",
         "guzzlehttp/guzzle": "^6.3",
