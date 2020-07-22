@@ -11,7 +11,7 @@
         "php": "^7.2.5",
         "ext-gd": "*",
         "ext-json": "*",
-        "deployer/deployer": "6.8",
+        "deployer/deployer": "^6.8",
         "deployer/recipes": "^6.2",
         "fideloper/proxy": "^4.2",
         "fruitcake/laravel-cors": "^1.0",
