@@ -9,7 +9,6 @@
 	<link href="https://fonts.googleapis.com/css?family=Nunito:400,600" rel="stylesheet">
 	<link rel="shortcut icon" type="image/png" href="{{ asset('assets/img/fav-icon.png') }}"/>
 	<link href="{{ mix('assets/css/app.css') }}" rel="stylesheet">
-	<meta name="csrf-token" content="{{ csrf_token() }}" />
 </head>
 <body>
 
