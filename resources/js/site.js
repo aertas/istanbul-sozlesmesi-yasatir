@@ -17,6 +17,12 @@ var app = {
                     $(this).remove();
                 })
             },
+            onBeforeImgUpload: function () {
+                $('a.download').remove();
+            },
+            onBeforeImgCrop: function () {
+                $('#croppic').append('<div class="loading"></div>');
+            },
             //outputUrlId:'myOutputId'
             doubleZoomControls: false,
             rotateControls: false

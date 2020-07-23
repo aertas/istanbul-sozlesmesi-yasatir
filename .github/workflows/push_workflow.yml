@@ -68,13 +68,13 @@ jobs:
           extension-csv: mbstring, bcmath
       - name: Composer install
         run: composer install -q --no-ansi --no-interaction --no-scripts --no-suggest --no-progress --prefer-dist
-      - name: Resimler Klasör Yarat
-        run: mkdir -p storage && mkdir -p storage/framework/{croptemp}
       - name: Setup Deployer
         uses: atymic/deployer-php-action@master
         with:
           ssh-private-key: ${{ secrets.SSH_PRIVATE_KEY }}
           ssh-known-hosts: ${{ secrets.SSH_KNOWN_HOSTS }}
+      - name: Resim Klasörünü Yarat
+        run: mkdir -p storage && mkdir -p storage/croptemp
       - name: Deploy to PRODUCTION Server
         env:
           DOT_ENV: ${{ secrets.DOT_ENV_PRODUCTION }}

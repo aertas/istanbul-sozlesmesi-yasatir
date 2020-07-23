@@ -40,6 +40,11 @@ class Crop extends Controller
 		// rotation angle
 		$angle = $request->input('rotation');
 		$output_file_short_name = 'cropped_img_' . rand();
+
+		if (!File::exists(storage_path('croptemp'))) {
+			File::makeDirectory(storage_path('croptemp'));
+		}
+
 		$output_filename = storage_path('croptemp') . '/' . $output_file_short_name;
 
 		$frameImage = imagecreatefrompng(resource_path('img/frame.png'));

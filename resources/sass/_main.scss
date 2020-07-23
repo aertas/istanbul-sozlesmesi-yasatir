@@ -21,7 +21,7 @@ html, body {
     position: absolute;
   }
   .cropImgWrapper {
-    > img{
+    > img {
       z-index: 3;
     }
     &.uploaded {
@@ -61,7 +61,7 @@ html, body {
   transform: translateX(-50%);
 }
 
-a.download{
+a.download {
   display: block;
   width: 64px;
   height: 64px;
@@ -73,3 +73,19 @@ a.download{
   z-index: 50;
   text-decoration: none;
 }
+
+.loading {
+  display: block;
+  width: 120px;
+  height: 120px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  position: absolute;
+  z-index: 60;
+  background: transparentize($primary, .5) center center no-repeat url("../icons/rings.svg");
+  text-decoration: none;
+  background-size: 100%;
+}
+
