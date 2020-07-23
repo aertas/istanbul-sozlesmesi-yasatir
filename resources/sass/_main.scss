@@ -90,12 +90,17 @@ a.download {
 }
 
 a.git {
+  /*
   position: fixed;
   top: 10px;
   right: 10px;
   width: 32px;
   height: 32px;
   display: block;
+   */
+  display: inline-block;
+  width: 32px;
+  height: 32px;
   text-indent: -9999px;
   white-space: nowrap;
   overflow: hidden;

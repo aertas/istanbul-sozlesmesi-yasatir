@@ -19,14 +19,17 @@
 					<a href="http://kadincinayetlerinidurduracagiz.net/" target="_blank">Kadın Cinayetlerini Durduracağız Platformu</a>
 				</p>
 				<p>
-					Yazılım <a href="https://twitter.com/concofahmet">@concofahmet</a>
+					<a href="https://istanbulsozlesmesiyasatir.com" target="_blank">İstanbul Sözleşmesi Yaşatır</a>
 				</p>
 			</div>
 			<div class="col pt-3 mt-5">
 				<a href="https://twitter.com/search?q=%23istanbulsozlesmesiyasatir&src=typeahead_click" class="twitlink" target="_blank">#İstanbulSözleşmesiYaşatır</a>
 				<a href="https://twitter.com/search?q=%23istanbulsozlesmesi&src=typeahead_click" class="twitlink" target="_blank">#İstanbulSözleşmesi</a>
 			</div>
+			<div class="my-5 text-center" >
+				<a href="https://github.com/aertas/istanbul-sozlesmesi-yasatir" target="_blank" class="git" title="Fork me on github">GitHub</a>
+			</div>
 		</div>
 	</div>
-	<a href="https://github.com/aertas/istanbul-sozlesmesi-yasatir" target="_blank" class="git" title="Fork me on github">GitHub</a>
+
 @endsection
