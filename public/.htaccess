@@ -9,10 +9,15 @@
     RewriteCond %{HTTP:Authorization} .
     RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
 
-	# To SSL
-	RewriteCond %{HTTPS} off [NC]
-	RewriteCond %{HTTP_HOST} ^(.*)\.(com)$  [NC]
-	RewriteRule (.*) https://%1.com/$1 [R=301,L]
+	# To no SSL
+#    RewriteCond %{SERVER_PORT} =443
+#    RewriteRule . http://%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
+
+    #ALTERNATE DOMAINS
+    # ---------------
+    RewriteCond %{HTTP_HOST} ^isy.concof.com$ [OR]
+    RewriteCond %{HTTP_HOST} ^www.isy.concof.com$
+    RewriteRule (.*)$ http://profilfotosu.istanbulsozlesmesiyasatir.com/$1 [R=301,L]
 
     # Redirect Trailing Slashes If Not A Folder...
     RewriteCond %{REQUEST_FILENAME} !-d
