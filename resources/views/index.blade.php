@@ -19,6 +19,9 @@
 					<a href="http://kadincinayetlerinidurduracagiz.net/" target="_blank">Kadın Cinayetlerini Durduracağız Platformu</a>
 				</p>
 				<p>
+					<a href="https://www.tck103kadinplatformu.net/" target="_blank">TCK103 Çocuk Cinsel İstismarı Affına Karşı Kadın Platformu</a>
+				</p>
+				<p>
 					<a href="https://istanbulsozlesmesiyasatir.com" target="_blank">İstanbul Sözleşmesi Yaşatır</a>
 				</p>
 			</div>
