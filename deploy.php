@@ -32,7 +32,7 @@ task('deploy:secrets', function () {
 });
 
 host('isy.concof.com')
-	->hostname('104.248.170.149')
+	->hostname('138.68.93.43')
 	->stage('production')
 	->user('root')
 	->set('deploy_path', '/home/isycncf');
