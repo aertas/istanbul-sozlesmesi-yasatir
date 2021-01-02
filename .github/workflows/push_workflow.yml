@@ -22,7 +22,7 @@ jobs:
       - name: Copy .env
         run: php -r "file_exists('.env') || copy('.env.example', '.env');"
       - name: Install Composer Dependencies
-        run: composer install -q --no-ansi --no-interaction --no-scripts --no-suggest --no-progress --prefer-dist
+        run: composer install -q --no-ansi --no-interaction --no-scripts --no-suggest --no-progress --prefer-dist --ignore-platform-reqs
       - name: Anahtar oluşturmak için klasör yarat
         run: mkdir -p storage && mkdir -p storage/framework/{sessions,views,cache,croptemp}
       - name: Install NPM Dependencies
