@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>İstanbul Sözleşmesi Profil Resmi Güncelle</title>
+	<title>İstanbul Sözleşmesi Profil Resmini Güncelle</title>
 	<meta name="csrf-token" content="{{ csrf_token() }}">
 	<link rel="dns-prefetch" href="//fonts.gstatic.com">
 	<link href="https://fonts.googleapis.com/css?family=Nunito:400,600" rel="stylesheet">

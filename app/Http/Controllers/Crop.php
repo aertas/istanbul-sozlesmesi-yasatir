@@ -8,7 +8,7 @@ use Illuminate\Support\Facades\Response;
 
 class Crop extends Controller
 {
-	public $frameWidth = 512;
+	public $frameWidth = 502;
 
 	public function Image(Request $request)
 	{

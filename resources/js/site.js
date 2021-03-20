@@ -1,32 +1,34 @@
 var app = {
     debug: false,
     cropper: function () {
-        var cropperOptions = {
-            cropUrl: '/',
-            processInline: true,
-            imgEyecandy: true,
-            imgEyecandyOpacity: 0.2,
-            customUploadButtonId: 'upload-image',
-            onAfterImgUpload: function () {
-                $('.cropImgWrapper').addClass('uploaded')
-            },
-            onAfterImgCrop: function () {
-                $('a.download').remove();
-                $('#croppic').append('<a class="download" target="_blank" href="' + $('img.croppedImg').attr('src') + '" download>&nbsp;</a>');
-                $('a.download').click(function (e) {
-                    $(this).remove();
-                })
-            },
-            onBeforeImgUpload: function () {
-                $('a.download').remove();
-            },
-            onBeforeImgCrop: function () {
-                $('#croppic').append('<div class="loading"></div>');
-            },
-            //outputUrlId:'myOutputId'
-            doubleZoomControls: false,
-            rotateControls: false
-        }
+        var $cropCont = $('.crop-cont'),
+            cropperOptions = {
+                cropUrl: '/',
+                processInline: true,
+                imgEyecandy: true,
+                imgEyecandyOpacity: 0.2,
+                scaleToFill: true,
+                customUploadButtonId: 'upload-image',
+                onAfterImgUpload: function () {
+                    $('.cropImgWrapper').addClass('uploaded')
+                },
+                onAfterImgCrop: function () {
+                    $('a.download').remove();
+                    $('#croppic').append('<a class="download" target="_blank" href="' + $('img.croppedImg').attr('src') + '" download>&nbsp;</a>');
+                    $('a.download').click(function (e) {
+                        $(this).remove();
+                    })
+                },
+                onBeforeImgUpload: function () {
+                    $('a.download').remove();
+                },
+                onBeforeImgCrop: function () {
+                    $('#croppic').append('<div class="loading"></div>');
+                },
+                //outputUrlId:'myOutputId'
+                doubleZoomControls: false,
+                rotateControls: false
+            }
         var cropperHeader = new Croppic('croppic', cropperOptions);
 
     },
