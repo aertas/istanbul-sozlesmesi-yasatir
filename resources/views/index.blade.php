@@ -21,9 +21,6 @@
 				<p>
 					<a href="https://www.tck103kadinplatformu.net/" target="_blank">TCK103 Çocuk Cinsel İstismarı Affına Karşı Kadın Platformu</a>
 				</p>
-				<p>
-					<a href="https://istanbulsozlesmesiyasatir.com" target="_blank">İstanbul Sözleşmesi Yaşatır</a>
-				</p>
 			</div>
 			<div class="col pt-1 mt-1">
 				<a href="https://twitter.com/search?q=%23istanbulsozlesmesiyasatir&src=typeahead_click" class="twitlink" target="_blank">#İstanbulSözleşmesiYaşatır</a>

@@ -15,9 +15,9 @@
 
     #ALTERNATE DOMAINS
     # ---------------
-    RewriteCond %{HTTP_HOST} ^isy.concof.com$ [OR]
-    RewriteCond %{HTTP_HOST} ^www.isy.concof.com$
-    RewriteRule (.*)$ https://profilfotosu.istanbulsozlesmesiyasatir.com/$1 [R=301,L]
+    #RewriteCond %{HTTP_HOST} ^isy.concof.com$ [OR]
+    #RewriteCond %{HTTP_HOST} ^www.isy.concof.com$
+    #RewriteRule (.*)$ https://profilfotosu.istanbulsozlesmesiyasatir.com/$1 [R=301,L]
 
     # Redirect Trailing Slashes If Not A Folder...
     RewriteCond %{REQUEST_FILENAME} !-d
